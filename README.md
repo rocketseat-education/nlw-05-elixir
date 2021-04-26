@@ -1,19 +1,38 @@
-# Inmana
+<h1 align="center">Inmana</h1>
 
-To start your Phoenix server:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+ <img src="https://img.shields.io/static/v1?label=NLW&message=05&color=8257E5&labelColor=000000" alt="NLW 05" />
+</p>
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+<br>
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## ✨ Tecnologias
 
-## Learn more
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- [Elixix](https://elixir-lang.org/)
+- [Phoenix](https://phoenixframework.org/)
+
+## 💻 Projeto
+
+O InMana é um gerenciador de estoques que te avisa sempre que algum de seus produtos estiver chegando na data de vencimento.
+
+## 🚀 Como executar
+
+- Clone o repositório
+- Instale o phoenix `mix archive.install hex phx_new 1.5.8`
+- Instale as dependencias do projeto `mix deps.get`
+- Instale a database e rode as migrations `mix ecto.setup`
+- Inicie o servidor do phoenix `mix phx.server`
+- Por fim, caso precise você pode alterar as configurações do banco de dados pelo arquivo `dev.exs` e no arquivo `config/test.exs`
+
+Por fim, a aplicação estará disponível em `http://localhost:4000`
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by Rocketseat 👋🏻 [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
