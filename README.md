@@ -12,7 +12,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Elixix](https://elixir-lang.org/)
+- [Elixir](https://elixir-lang.org/)
 - [Phoenix](https://phoenixframework.org/)
 
 ## 💻 Projeto
